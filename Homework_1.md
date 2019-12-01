@@ -49,3 +49,11 @@ Hadoop / MapReduce is the most efficient database. There are two reasons:
 - First, Hadoop can provide an efficient way to store, transport and calculate huge amount of data.
 - Second, Hadoop has the Hive application. SQL can be directly used in Hive. For this case, because the data are well structured, using SQL is the most efficient way to do analysis.
 
+## Workflow
+
+### 6. Methodology
+
+The whole data are stored in HDFS, so there are two methods to get access to them.
+
+- `Local Access`: Use Hadoop to download the sample data and then use local machine to analysis the sampled data. For the data are not so large, we can use Python or Matlab to do data analysis. Although this method might be quicker and more convenient, the accuracy of user portrait might be weaker.
+- `Online Access`: Directly use Hive application to handle the whole data. The process is more complex because not only SQL is used but also Yarn is used to manage the computing resources. The data are not local and might consume a huge amount of computing power. This method requires advanced hardware on server.
