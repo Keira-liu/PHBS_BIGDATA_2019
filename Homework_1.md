@@ -1,7 +1,7 @@
 # Precise marketing prediction based on big data user portrait analysis
 
-## Anyi Liu 
-## 1801212888
+### Name: Anyi Liu 
+### Student ID: 1801212888
 
 ## Background
 
